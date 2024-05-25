@@ -60,7 +60,6 @@ label{
 .error-message{
   font-size: xx-small;
   color:hsl(0, 100%, 67%);
-  display:none
 }
 
 .error-label{
