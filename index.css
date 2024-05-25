@@ -20,6 +20,12 @@ body{
     padding: 20px;
   }
 
+  h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+  }
+
   .calculator-container{
     background-color: white;
     max-width: 700px;
@@ -62,9 +68,6 @@ label{
   color:hsl(0, 100%, 67%);
 }
 
-.error-label{
-  color:(0, 100%, 67%);
-}
 
 .error-input{
  border-color:(0, 100%, 67%)
