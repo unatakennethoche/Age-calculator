@@ -66,6 +66,17 @@ const calculateAge=(day,month,year)=>{
   let age=today.getFullYear()-birthDate.getFullYear();
   let months=today.getMonth()-birthDate.getMonth()
   let days=today.getDate()-birthDate.getDate()
+
+  if (days < 0) {
+  months--;
+    days += new Date(today.getFullYear(), today.getMonth(), 0).getDate();
+}
+
+if (months < 0) {
+    age--;
+    months += 12;
+}
+
   document.getElementById("results-years").textContent=age
   
   document.getElementById("results-months").textContent=months
