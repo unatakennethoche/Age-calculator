@@ -42,7 +42,7 @@ let isValid=true
      else if(parseInt(monthInputValue) > 12||parseInt(monthInputValue)<=0){
       isValid=false
       errorSpan[1].textContent="must be a valid day";
-      invalidStyle()  
+      invalidStyle()
     }
 }
 
